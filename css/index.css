@@ -322,6 +322,7 @@ header .logo{
     width: 48%;
     margin-bottom: 20px;
     margin-right: 10px;
+    padding: 10px;
 }
 
 .infoCard .button{
