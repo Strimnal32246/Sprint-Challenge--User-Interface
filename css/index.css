@@ -262,7 +262,24 @@ header nav a{
     justify-content: space-between;
 
 }
+header nav a:hover{
+    color: purple;
+    background-color: pink;
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: purple;
+      color:pink;
+    }
+    100% {
+      background-color: #ffddf4;
+      color:black;
+    }
+  }
 
+}
 header .logo{
     margin-right: 100px;
     margin-top: 30px;
@@ -271,3 +288,64 @@ header .logo{
     margin-bottom: 20px;
     width: 100%;
 }
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-content .home-top-img-about{
+    margin-bottom: 20px;
+    width:100%;   
+}
+.top-content-about h2{
+    margin-top: 20px;
+    padding-left: 25px;
+    
+}
+
+.top-content-about p{
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.2;
+}
+/*info cards*/
+.infoCard{
+    border-bottom: 2px dashed black;
+    width: 48%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.infoCard .button{
+  border: 1px double black;
+  font-size: 16px;
+  background: white;
+  width: 170px;
+  height: 32px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.infoCard .button a:hover{
+    color: cadetblue;
+    background: purple;
+    animation: pulse 5s infinite;
+}
+.infoCard img{
+    margin-bottom: 20px;
+}
+
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+ 
